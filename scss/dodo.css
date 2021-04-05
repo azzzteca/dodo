@@ -110,6 +110,8 @@ body {
   width: 280px;
   height: 280px;
   background-color: #FFFFFF;
+  -webkit-transition: background-color 250ms;
+  transition: background-color 250ms;
 }
 
 .dodo__item:not(:last-child) {
@@ -118,6 +120,8 @@ body {
 
 .dodo__item:hover {
   background-color: #FF6B09;
+  -webkit-transition: background-color 250ms;
+  transition: background-color 250ms;
 }
 
 .dodo__item:hover .dodo__item-header {
@@ -176,6 +180,8 @@ body {
   letter-spacing: 0.08em;
   color: #111518;
   text-align: center;
+  -webkit-transition: color 250ms;
+  transition: color 250ms;
 }
 
 @media screen and (min-width: 768px) {
@@ -200,6 +206,8 @@ body {
   letter-spacing: 0.08em;
   color: #FF6B09;
   text-align: center;
+  -webkit-transition: color 250ms;
+  transition: color 250ms;
 }
 
 @media screen and (min-width: 768px) {
@@ -224,6 +232,8 @@ body {
   letter-spacing: 0.08em;
   color: #B9B9B9;
   text-align: center;
+  -webkit-transition: color 250ms;
+  transition: color 250ms;
 }
 
 @media screen and (min-width: 1344px) {
