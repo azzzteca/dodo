@@ -116,6 +116,27 @@ body {
         margin-bottom: 15px;
     }
 
+    &:hover {
+        background-color: #FF6B09;
+
+        // Заливка свг картинок. Класс должен совпадать
+        // .dodo__svg {
+        //     fill: #FFFFFF;
+        // }
+
+        .dodo__item-header {
+            color: #FFFFFF;
+        }
+
+        .dodo__dash {
+            color: #FFFFFF;
+        }
+
+        .dodo__info {
+            color: #FFFFFF;
+        }
+    }
+
     @media screen and (min-width: 768px) {
         flex-basis: calc(100% / 2 - 20px);
         height: 334px;
@@ -135,6 +156,8 @@ body {
         height: 396px;
 
         margin-top: 20px;
+
+        padding: 118px 30px 55px 30px;
         
     }
 }
@@ -194,8 +217,9 @@ body {
 
     @media screen and (min-width: 1344px) {
         font-size: 20px;
-        
-        
+        line-height: 1.4;
+
+        margin-bottom: unset;
     }
 }
 
@@ -212,7 +236,10 @@ body {
 
     @media screen and (min-width: 768px) {
         margin-bottom: 10px;
-        
+    }
+
+    @media screen and (min-width: 1344px) {
+        margin-bottom: unset;
     }
 }
 
@@ -231,9 +258,8 @@ body {
 
     text-align: center;
 
-    @media screen and (min-width: 768px) {
-
-        
+    @media screen and (min-width: 1344px) {
+        font-size: 18px;
     }
 }
 

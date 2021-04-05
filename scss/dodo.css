@@ -116,6 +116,22 @@ body {
   margin-bottom: 15px;
 }
 
+.dodo__item:hover {
+  background-color: #FF6B09;
+}
+
+.dodo__item:hover .dodo__item-header {
+  color: #FFFFFF;
+}
+
+.dodo__item:hover .dodo__dash {
+  color: #FFFFFF;
+}
+
+.dodo__item:hover .dodo__info {
+  color: #FFFFFF;
+}
+
 @media screen and (min-width: 768px) {
   .dodo__item {
     -ms-flex-preferred-size: calc(100% / 2 - 20px);
@@ -136,6 +152,7 @@ body {
         flex-basis: calc(100% / 3 - 20px);
     height: 396px;
     margin-top: 20px;
+    padding: 118px 30px 55px 30px;
   }
 }
 
@@ -170,6 +187,8 @@ body {
 @media screen and (min-width: 1344px) {
   .dodo__item-header {
     font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: unset;
   }
 }
 
@@ -189,6 +208,12 @@ body {
   }
 }
 
+@media screen and (min-width: 1344px) {
+  .dodo__dash {
+    margin-bottom: unset;
+  }
+}
+
 .dodo__info {
   margin: 0;
   padding-left: 11px;
@@ -199,5 +224,11 @@ body {
   letter-spacing: 0.08em;
   color: #B9B9B9;
   text-align: center;
+}
+
+@media screen and (min-width: 1344px) {
+  .dodo__info {
+    font-size: 18px;
+  }
 }
 /*# sourceMappingURL=dodo.css.map */
